@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/cadastro.css">
+    <title>PopBox</title>
+</head>
+<body>
+    <header>
+        <div></div>
+      </header>
+    <div class="container">
+      <div class="logo">
+         <h1>PopBox</h1>
+      </div>
+      <form action="/usuario/cadastro" method="post">
+        <div>
+            <h1>Fazer Login</h1>
+            <p>Prosseguir para seu PopBox</p>
+         </div>
+         <input type="text" name="name" placeholder="Nome" required maxlength="45">
+         <input type="email" name="email" placeholder="Email" required maxlength="45">
+         <input type="text" name="user" placeholder="Usuário" required maxlength="20">
+         <input type="password" name="password" placeholder="Senha" required minlength="8">
+         <input type="submit" value="Cadastrar" id="cadastrar">
+       </form>
+    </div>
+</body>
+</html>
